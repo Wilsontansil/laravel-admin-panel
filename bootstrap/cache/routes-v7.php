@@ -32,7 +32,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::fG2pVEJ0DUjwCTBm',
+            '_route' => 'generated::vAKxtSEuAwG7PY5P',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FMkmEDlWAVAK41HJ',
+            '_route' => 'generated::wxa9P50qrKTV1FvY',
           ),
           1 => NULL,
           2 => 
@@ -150,7 +150,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::wDMsJrm8XqM7xbhp',
+            '_route' => 'generated::y7Ms3A3keDx1pndB',
           ),
           1 => NULL,
           2 => 
@@ -510,7 +510,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::fG2pVEJ0DUjwCTBm' => 
+    'generated::vAKxtSEuAwG7PY5P' => 
     array (
       'methods' => 
       array (
@@ -522,7 +522,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::fG2pVEJ0DUjwCTBm',
+        'as' => 'generated::vAKxtSEuAwG7PY5P',
       ),
       'fallback' => false,
       'defaults' => 
@@ -538,7 +538,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::FMkmEDlWAVAK41HJ' => 
+    'generated::wxa9P50qrKTV1FvY' => 
     array (
       'methods' => 
       array (
@@ -550,7 +550,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::FMkmEDlWAVAK41HJ',
+        'as' => 'generated::wxa9P50qrKTV1FvY',
       ),
       'fallback' => false,
       'defaults' => 
@@ -728,7 +728,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::wDMsJrm8XqM7xbhp' => 
+    'generated::y7Ms3A3keDx1pndB' => 
     array (
       'methods' => 
       array (
@@ -743,7 +743,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'C:\\\\Project\\\\OHM\\\\laravel-mary-final\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000cce0000000000000000";}}',
-        'as' => 'generated::wDMsJrm8XqM7xbhp',
+        'as' => 'generated::y7Ms3A3keDx1pndB',
       ),
       'fallback' => false,
       'defaults' => 

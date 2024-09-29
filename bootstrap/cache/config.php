@@ -6,7 +6,7 @@
   14 => 'view',
   'app' => 
   array (
-    'name' => 'Laravel',
+    'name' => 'Laravels',
     'env' => 'production',
     'debug' => false,
     'url' => 'https://laravel-mary-final.fly.dev',
@@ -301,7 +301,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'laravel_database_',
+        'prefix' => 'laravels_database_',
       ),
       'default' => 
       array (
@@ -524,7 +524,7 @@
     'from' => 
     array (
       'address' => 'hello@example.com',
-      'name' => 'Laravel',
+      'name' => 'Laravels',
     ),
     'markdown' => 
     array (
@@ -687,7 +687,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'laravel_session',
+    'cookie' => 'laravels_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => NULL,
