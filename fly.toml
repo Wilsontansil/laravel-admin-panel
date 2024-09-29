@@ -11,11 +11,12 @@ console_command = 'php /var/www/html/artisan tinker'
   [build.args]
     NODE_VERSION = '18'
     PHP_VERSION = '8.2'
-  builder = "heroku/buildpacks:20"  # Or another appropriate builder
-  command = "npm install && npm run build && php artisan migrate --force"
+  builder = "heroku/buildpacks:20"
+  command = "composer install --optimize-autoloader --no-dev && npm install && npm run build"
 
 [env]
   APP_ENV = 'production'
+  APP_URL = 'https://laravel-mary-final.fly.dev'
   LOG_CHANNEL = 'stderr'
   LOG_LEVEL = 'info'
   LOG_STDERR_FORMATTER = 'Monolog\Formatter\JsonFormatter'
