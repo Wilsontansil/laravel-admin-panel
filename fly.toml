@@ -17,6 +17,11 @@ console_command = 'php /var/www/html/artisan tinker'
 [env]
   APP_ENV = 'production'
   DB_CONNECTION = 'pgsql'
+  DB_HOST = 'laravel-admin.flycast'
+  DB_PORT = '5432'
+  DB_DATABASE = 'laravel-admin'
+  DB_USERNAME = 'root
+  DB_PASSWORD = ''
   APP_URL = 'https://laravel-mary-final.fly.dev'
   LOG_CHANNEL = 'stderr'
   LOG_LEVEL = 'info'
@@ -33,7 +38,7 @@ console_command = 'php /var/www/html/artisan tinker'
   processes = ['app']
 
 [deploy]
-  release_command = "php /var/www/html/artisan migrate --force"
+  release_command = "php /var/www/html/artisan migrate:fresh --seed --force"
 
 [[vm]]
   memory = '1gb'
