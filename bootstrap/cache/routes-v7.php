@@ -26,13 +26,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/livewire/livewire.js' => 
+      '/livewire/livewire.min.js' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::TJNIegHEUGXwMt0r',
+            '_route' => 'generated::fG2pVEJ0DUjwCTBm',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::P4THwQaTuhiHjWdv',
+            '_route' => 'generated::FMkmEDlWAVAK41HJ',
           ),
           1 => NULL,
           2 => 
@@ -150,7 +150,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::O9Y8HagVWoajYMfq',
+            '_route' => 'generated::wDMsJrm8XqM7xbhp',
           ),
           1 => NULL,
           2 => 
@@ -510,19 +510,19 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::TJNIegHEUGXwMt0r' => 
+    'generated::fG2pVEJ0DUjwCTBm' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'livewire/livewire.js',
+      'uri' => 'livewire/livewire.min.js',
       'action' => 
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::TJNIegHEUGXwMt0r',
+        'as' => 'generated::fG2pVEJ0DUjwCTBm',
       ),
       'fallback' => false,
       'defaults' => 
@@ -538,7 +538,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::P4THwQaTuhiHjWdv' => 
+    'generated::FMkmEDlWAVAK41HJ' => 
     array (
       'methods' => 
       array (
@@ -550,7 +550,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::P4THwQaTuhiHjWdv',
+        'as' => 'generated::FMkmEDlWAVAK41HJ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -639,7 +639,7 @@ app('router')->setCompiledRoutes(
     if ($request->collapsed) {
         \\session([\'mary-sidebar-collapsed\' => $request->collapsed]);
     }
-}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000007a20000000000000000";}}',
+}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"000000000000077d0000000000000000";}}',
         'as' => 'mary.toogle-sidebar',
       ),
       'fallback' => false,
@@ -672,7 +672,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:135:"function (\\Illuminate\\Http\\Request $request) {
     return \\app()->make(\\config(\'mary.components.spotlight.class\'))->search($request);
-}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000007a00000000000000000";}}',
+}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"000000000000077b0000000000000000";}}',
         'as' => 'mary.spotlight',
       ),
       'fallback' => false,
@@ -711,7 +711,7 @@ app('router')->setCompiledRoutes(
     $url = \\Illuminate\\Support\\Facades\\Storage::disk($disk)->url($file);
 
     return [\'location\' => $url];
-}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"000000000000079e0000000000000000";}}',
+}";s:5:"scope";s:34:"Illuminate\\Support\\ServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000007790000000000000000";}}',
         'as' => 'mary.upload',
       ),
       'fallback' => false,
@@ -728,7 +728,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::O9Y8HagVWoajYMfq' => 
+    'generated::wDMsJrm8XqM7xbhp' => 
     array (
       'methods' => 
       array (
@@ -742,8 +742,8 @@ app('router')->setCompiledRoutes(
                     \\Illuminate\\Support\\Facades\\Event::dispatch(new \\Illuminate\\Foundation\\Events\\DiagnosingHealth);
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'C:\\\\Project\\\\OHM\\\\laravel-mary-final\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000d150000000000000000";}}',
-        'as' => 'generated::O9Y8HagVWoajYMfq',
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000cce0000000000000000";}}',
+        'as' => 'generated::wDMsJrm8XqM7xbhp',
       ),
       'fallback' => false,
       'defaults' => 
@@ -775,7 +775,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:59:"function () {
     return \\redirect()->route(\'dashboard\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000d110000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000cca0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -912,7 +912,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d0d0000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cc60000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -956,7 +956,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d090000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cc20000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1000,7 +1000,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d070000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cc00000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1044,7 +1044,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d050000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cbe0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1088,7 +1088,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d030000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cbc0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1132,7 +1132,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000d010000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cba0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1216,7 +1216,7 @@ app('router')->setCompiledRoutes(
                 $container->make(\\Livewire\\Volt\\LivewireManager::class)->new($componentName),
                 \'__invoke\',
             ]);
-        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cfe0000000000000000";}}',
+        }";s:5:"scope";s:25:"Livewire\\Volt\\VoltManager";s:4:"this";N;s:4:"self";s:32:"0000000000000cb70000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -1286,13 +1286,13 @@ app('router')->setCompiledRoutes(
       'uri' => 'storage/{path}',
       'action' => 
       array (
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:4:{s:6:"driver";s:5:"local";s:4:"root";s:53:"C:\\Project\\OHM\\laravel-mary-final\\storage\\app/private";s:5:"serve";b:1;s:5:"throw";b:0;}s:12:"isProduction";b:0;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:4:{s:6:"driver";s:5:"local";s:4:"root";s:53:"C:\\Project\\OHM\\laravel-mary-final\\storage\\app/private";s:5:"serve";b:1;s:5:"throw";b:0;}s:12:"isProduction";b:1;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
                     return (new \\Illuminate\\Filesystem\\ServeFile(
                         $disk,
                         $config,
                         $isProduction
                     ))($request, $path);
-                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"0000000000000d0b0000000000000000";}}',
+                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"0000000000000cc40000000000000000";}}',
         'as' => 'storage.local',
       ),
       'fallback' => false,
